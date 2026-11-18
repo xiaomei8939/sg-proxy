@@ -2,7 +2,7 @@
  {
   "step": "open",
   "shot": "00-open.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/name?dsh=S2100419178:1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn&TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https://accounts.google.com/ManageAccount?nc%3D1",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/name?dsh=S-150594367:1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn&TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https://accounts.google.com/ManageAccount?nc%3D1",
   "extra": "",
   "text": "Loading\nCreate a Google Account\nEnter your name\nFirst name\nLast name (optional)\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms",
   "dom": [
@@ -74,7 +74,7 @@
  {
   "step": "after-name",
   "shot": "01-after-name.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
   "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nGender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender",
   "dom": [
@@ -245,7 +245,7 @@
  {
   "step": "birthday-filled",
   "shot": "02-birthday-filled.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "month_ok=True gender_ok=True",
   "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nJanuary\nDay\nYear\nGender\nFemale\nFemale\nMale\nRather not say\nCustom\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender\nMaximum of 4 characters entered",
   "dom": [
@@ -416,9 +416,9 @@
  {
   "step": "after-birthday",
   "shot": "03-after-birthday.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/username?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/username?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nCreate an email address\nCreate a Gmail address for signing in to your Google Account\nyya171767@gmail.com\ny6740536@gmail.com\nCreate your own Gmail address\nNext\nUse your existing email\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate an email address Create a Gmail address for signing in to your Google Account\nMaximum of 4 characters entered",
+  "text": "Loading\nCreate an email address\nCreate a Gmail address for signing in to your Google Account\ny91255705@gmail.com\nyya34663@gmail.com\nCreate your own Gmail address\nNext\nUse your existing email\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate an email address Create a Gmail address for signing in to your Google Account\nMaximum of 4 characters entered",
   "dom": [
    {
     "tag": "INPUT",
@@ -515,9 +515,9 @@
  {
   "step": "username-filled",
   "shot": "04-username-filled.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/username?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/username?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nCreate an email address\nCreate a Gmail address for signing in to your Google Account\nyya171767@gmail.com\ny6740536@gmail.com\nCreate your own Gmail address\nCreate a Gmail address\n@gmail.com\nYou can use letters, numbers & periods\nNext\nUse your existing email\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate an email address Create a Gmail address for signing in to your Google Account\nMaximum of 4 characters entered",
+  "text": "Loading\nCreate an email address\nCreate a Gmail address for signing in to your Google Account\ny91255705@gmail.com\nyya34663@gmail.com\nCreate your own Gmail address\nCreate a Gmail address\n@gmail.com\nYou can use letters, numbers & periods\nNext\nUse your existing email\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate an email address Create a Gmail address for signing in to your Google Account\nMaximum of 4 characters entered",
   "dom": [
    {
     "tag": "INPUT",
@@ -614,7 +614,7 @@
  {
   "step": "after-username",
   "shot": "05-after-username.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/password?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/password?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
   "text": "Loading\nCreate a strong password\nCreate a strong password with a mix of letters, numbers and symbols\nPassword\nConfirm\nShow password\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate a strong password Create a strong password with a mix of letters, numbers and symbols\nMaximum of 4 characters entered",
   "dom": [
@@ -695,7 +695,7 @@
  {
   "step": "password-filled",
   "shot": "06-password-filled.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/password?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/password?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "pw_ok=True",
   "text": "Loading\nCreate a strong password\nCreate a strong password with a mix of letters, numbers and symbols\nPassword\nConfirm\nShow password\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate a strong password Create a strong password with a mix of letters, numbers and symbols\nMaximum of 4 characters entered",
   "dom": [
@@ -776,19 +776,10 @@
  {
   "step": "after-password",
   "shot": "07-after-password.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/error/1?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/crossflowverification/initial?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nError\nSorry, we could not create your Google Account.\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nError\nMaximum of 4 characters entered",
+  "text": "Loading\nVerify some info before creating an account\nGoogle needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.\nScan the QR code with your phone\nOpen your Camera app, scan the code, and tap the link. Or, type g.co/verify/LtLd3M9P into your mobile device’s browser.\nThen, follow a few more steps on your phone to complete verification. Depending on your device, you may need to send Google a verification code.\nYou’ll need to switch back to this device to continue.\nEnglish (United States)\nHelp\nPrivacy\nTerms\nVerify some info before creating an account Google needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.\nMaximum of 4 characters entered",
   "dom": [
-   {
-    "tag": "BUTTON",
-    "type": "button",
-    "id": "",
-    "name": null,
-    "role": null,
-    "label": null,
-    "visible": true
-   },
    {
     "tag": "BUTTON",
     "type": "button",
@@ -830,19 +821,10 @@
  {
   "step": "gate-observed",
   "shot": "08-gate-observed.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/error/1?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/crossflowverification/initial?TL=AAxq8nsFT-1a0UcFnYAVwkLqQnKYaowlNuM57I7wjUNkR39xZaw0LJyVHNze5NS7&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S-150594367%3A1794969073810066&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nError\nSorry, we could not create your Google Account.\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nError\nMaximum of 4 characters entered",
+  "text": "Loading\nVerify some info before creating an account\nGoogle needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.\nScan the QR code with your phone\nOpen your Camera app, scan the code, and tap the link. Or, type g.co/verify/LtLd3M9P into your mobile device’s browser.\nThen, follow a few more steps on your phone to complete verification. Depending on your device, you may need to send Google a verification code.\nYou’ll need to switch back to this device to continue.\nEnglish (United States)\nHelp\nPrivacy\nTerms\nVerify some info before creating an account Google needs to verify some info about your device or phone number before you can continue. This helps keep you and others safe online by preventing abuse from computer programs or bots.\nMaximum of 4 characters entered",
   "dom": [
-   {
-    "tag": "BUTTON",
-    "type": "button",
-    "id": "",
-    "name": null,
-    "role": null,
-    "label": null,
-    "visible": true
-   },
    {
     "tag": "BUTTON",
     "type": "button",
