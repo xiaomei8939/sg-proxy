@@ -2,71 +2,883 @@
  {
   "step": "open",
   "shot": "00-open.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/name?dsh=S606069611:1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn&TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https://accounts.google.com/ManageAccount?nc%3D1",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/name?dsh=S2100419178:1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn&TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https://accounts.google.com/ManageAccount?nc%3D1",
   "extra": "",
-  "text": "Loading\nCreate a Google Account\nEnter your name\nFirst name\nLast name (optional)\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms"
+  "text": "Loading\nCreate a Google Account\nEnter your name\nFirst name\nLast name (optional)\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms",
+  "dom": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "firstName",
+    "name": "firstName",
+    "role": null,
+    "label": "First name",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "lastName",
+    "name": "lastName",
+    "role": null,
+    "label": "Last name (optional)",
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
   "step": "after-name",
   "shot": "01-after-name.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nGender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
+  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nGender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender",
+  "dom": [
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "c6",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Month",
+    "visible": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "tel",
+    "id": "day",
+    "name": "day",
+    "role": null,
+    "label": "Day",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "tel",
+    "id": "year",
+    "name": "year",
+    "role": null,
+    "label": "Year",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "c12",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Gender",
+    "visible": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "name": "",
+    "role": null,
+    "label": "What's your gender?",
+    "visible": false
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "c18",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Please refer to me as",
+    "visible": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": "link",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
-  "step": "month-failed",
-  "shot": "02-month-failed.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
-  "extra": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"select\").first\n",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nGender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
- },
- {
-  "step": "gender-failed",
-  "shot": "03-gender-failed.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
-  "extra": "Locator.select_option: Error: Element is not a <select> element\nCall log:\n  - waiting for locator(\"#gender\")\n    - locator resolved to <div jsshadow=\"\" id=\"gender\" jsname=\"O1htCb\" jscontroller=\"yRXbo\" class=\"O1htCb-H9tDt kqZXwe\" jsaction=\"iFFCZc:Y0y4c;Rld2oe:gDkf4c;EDR5Je:QdOKJc;FzgWvd:RFVo1b\">…</div>\n  - attempting select option action\n    - waiting for element to be visible and enabled\n",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nGender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender\nMaximum of 4 characters entered"
+  "step": "birthday-filled",
+  "shot": "02-birthday-filled.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "extra": "month_ok=True gender_ok=True",
+  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nJanuary\nDay\nYear\nGender\nFemale\nFemale\nMale\nRather not say\nCustom\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "c6",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Month",
+    "visible": false
+   },
+   {
+    "tag": "INPUT",
+    "type": "tel",
+    "id": "day",
+    "name": "day",
+    "role": null,
+    "label": "Day",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "tel",
+    "id": "year",
+    "name": "year",
+    "role": null,
+    "label": "Year",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "c12",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Gender",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "name": "",
+    "role": null,
+    "label": "What's your gender?",
+    "visible": false
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "c18",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Please refer to me as",
+    "visible": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": "link",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
   "step": "after-birthday",
-  "shot": "04-after-birthday.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "shot": "03-after-birthday.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/username?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nPlease enter a month\nGender\nPlease select your gender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender\nMaximum of 4 characters entered "
+  "text": "Loading\nCreate an email address\nCreate a Gmail address for signing in to your Google Account\nyya171767@gmail.com\ny6740536@gmail.com\nCreate your own Gmail address\nNext\nUse your existing email\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate an email address Create a Gmail address for signing in to your Google Account\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "",
+    "name": "usernameRadio",
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "",
+    "name": "usernameRadio",
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "",
+    "name": "usernameRadio",
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "name": "Username",
+    "role": null,
+    "label": "Create a Gmail address",
+    "visible": false
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
-  "step": "username-fill-failed",
-  "shot": "05-username-fill-failed.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
-  "extra": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"input[name=\\\"Username\\\"], input[type=\\\"text\\\"]\").first\n    - locator resolved to <input name=\"\" value=\"\" type=\"text\" tabindex=\"0\" jsname=\"YPqjbf\" autocomplete=\"off\" spellcheck=\"false\" class=\"whsOnd zHQkBf\" aria-disabled=\"false\" data-initial-value=\"\" aria-describedby=\"c13\" aria-label=\"What's your gender?\"/>\n    - fill(\"yya249666793\")\n  - attempting fill action\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    60 × waiting for element to be visible, enabled and editable\n       - element is not visible\n     - retrying fill action\n       - waiting 500ms\n",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nPlease enter a month\nGender\nPlease select your gender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
+  "step": "username-filled",
+  "shot": "04-username-filled.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/username?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "extra": "",
+  "text": "Loading\nCreate an email address\nCreate a Gmail address for signing in to your Google Account\nyya171767@gmail.com\ny6740536@gmail.com\nCreate your own Gmail address\nCreate a Gmail address\n@gmail.com\nYou can use letters, numbers & periods\nNext\nUse your existing email\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate an email address Create a Gmail address for signing in to your Google Account\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "",
+    "name": "usernameRadio",
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "",
+    "name": "usernameRadio",
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "radio",
+    "id": "",
+    "name": "usernameRadio",
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "id": "",
+    "name": "Username",
+    "role": null,
+    "label": "Create a Gmail address",
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
   "step": "after-username",
-  "shot": "06-after-username.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "shot": "05-after-username.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/password?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nPlease enter a month\nGender\nPlease select your gender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
+  "text": "Loading\nCreate a strong password\nCreate a strong password with a mix of letters, numbers and symbols\nPassword\nConfirm\nShow password\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate a strong password Create a strong password with a mix of letters, numbers and symbols\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "INPUT",
+    "type": "password",
+    "id": "",
+    "name": "Passwd",
+    "role": null,
+    "label": "Password",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "password",
+    "id": "",
+    "name": "PasswdAgain",
+    "role": null,
+    "label": "Confirm",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
-  "step": "password-fill-failed",
-  "shot": "07-password-fill-failed.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
-  "extra": "Locator.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"input[name=\\\"Passwd\\\"]\").first\n",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nPlease enter a month\nGender\nPlease select your gender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
+  "step": "password-filled",
+  "shot": "06-password-filled.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/password?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "extra": "pw_ok=True",
+  "text": "Loading\nCreate a strong password\nCreate a strong password with a mix of letters, numbers and symbols\nPassword\nConfirm\nShow password\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nCreate a strong password Create a strong password with a mix of letters, numbers and symbols\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "INPUT",
+    "type": "password",
+    "id": "",
+    "name": "Passwd",
+    "role": null,
+    "label": "Password",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "password",
+    "id": "",
+    "name": "PasswdAgain",
+    "role": null,
+    "label": "Confirm",
+    "visible": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
   "step": "after-password",
-  "shot": "08-after-password.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "shot": "07-after-password.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/error/1?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nPlease enter a month\nGender\nPlease select your gender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
+  "text": "Loading\nError\nSorry, we could not create your Google Account.\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nError\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  },
  {
   "step": "gate-observed",
-  "shot": "09-gate-observed.png",
-  "url": "https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=AAxq8nsj8lYs3yYEoVIFuEcKFFMqbPuqNGT_4ulSuoO0-oKs-r9I6brROvLIA2Kt&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S606069611%3A1794968371507435&flowEntry=SignUp&flowName=GlifWebSignIn",
+  "shot": "08-gate-observed.png",
+  "url": "https://accounts.google.com/lifecycle/steps/signup/error/1?TL=AAxq8nsNmbwAZABBCIyGHF5YDlE8qU3hxsIggcP6BRTPMsOYfGJsQ4mumRGQxsD4&continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S2100419178%3A1794968737603910&flowEntry=SignUp&flowName=GlifWebSignIn",
   "extra": "",
-  "text": "Loading\nBasic information\nEnter your birthday and gender\nMonth\nDay\nYear\nPlease enter a month\nGender\nPlease select your gender\nWhy we ask for your birthday and gender\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nBasic information Enter your birthday and gender"
+  "text": "Loading\nError\nSorry, we could not create your Google Account.\nNext\nEnglish (United States)\nHelp\nPrivacy\nTerms\nError\nMaximum of 4 characters entered",
+  "dom": [
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "BUTTON",
+    "type": "button",
+    "id": "",
+    "name": null,
+    "role": null,
+    "label": "Scroll down",
+    "visible": true
+   },
+   {
+    "tag": "DIV",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "combobox",
+    "label": null,
+    "visible": true
+   },
+   {
+    "tag": "SPAN",
+    "type": null,
+    "id": "i5",
+    "name": null,
+    "role": "listbox",
+    "label": null,
+    "visible": false
+   },
+   {
+    "tag": "UL",
+    "type": null,
+    "id": "",
+    "name": null,
+    "role": "listbox",
+    "label": "Change language",
+    "visible": false
+   }
+  ]
  }
 ]
