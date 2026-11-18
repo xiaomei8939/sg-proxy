@@ -166,8 +166,43 @@ def main():
         click_next(page); page.wait_for_timeout(3500)
         note('after-password', page)
 
-        page.wait_for_timeout(3000)
-        note('gate-observed', page)
+        # Cross-device verification gate: HOLD the session open while the
+        # account owner completes the phone-side steps, then continue.
+        if 'crossflowverification' in page.url:
+            note('gate-waiting', page)
+            waited = 0
+            while waited < 20 * 60:
+                page.wait_for_timeout(20000)
+                waited += 20
+                if 'crossflowverification' not in page.url:
+                    break
+                if waited % 120 == 0:
+                    note('gate-still-waiting', page, f'waited={waited}s')
+            note('gate-passed-or-timeout', page, f'waited={waited}s')
+
+        # Walk any remaining steps (recovery info -> Skip, terms -> I agree).
+        for i in range(6):
+            txt = ''
+            try:
+                txt = page.locator('body').inner_text(timeout=2500)
+            except Exception:
+                pass
+            if 'mail.google.com' in page.url or 'Welcome' in txt or 'Verify some info' in txt and 'crossflow' not in page.url:
+                pass
+            acted = False
+            for label in ['Skip', 'I agree', 'Confirm', 'Next', 'Done', 'Not now']:
+                try:
+                    el = page.locator(f'button:has-text("{label}")').first
+                    if el.is_visible(timeout=1000):
+                        el.click(); acted = True
+                        break
+                except Exception:
+                    continue
+            page.wait_for_timeout(2500)
+            note(f'post-gate-{i}', page, f'acted={acted}')
+            if 'ManageAccount' in page.url or 'mail.google.com' in page.url:
+                break
+        note('final', page)
         browser.close()
     print('DONE')
 
