@@ -96,9 +96,18 @@ def fill_label(page, labels, value):
 def main():
     if not PW:
         print('PW env missing'); sys.exit(2)
+    headful = os.environ.get('HEADFUL') == '1'
     with sync_playwright() as p:
-        browser = p.chromium.launch(args=['--no-sandbox', '--disable-dev-shm-usage'])
-        page = browser.new_context(locale='en-US').new_page()
+        browser = p.chromium.launch(
+            headless=not headful,
+            args=['--no-sandbox', '--disable-dev-shm-usage',
+                  '--disable-blink-features=AutomationControlled'])
+        page = browser.new_context(
+            locale='en-US', viewport={'width': 1280, 'height': 800},
+            user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+                       '(KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36').new_page()
+        page.goto('https://www.google.com/', wait_until='domcontentloaded')
+        page.wait_for_timeout(1500)
         page.goto('https://accounts.google.com/signup', wait_until='domcontentloaded')
         page.wait_for_timeout(2500)
         note('open', page)
